@@ -45,8 +45,6 @@ body {
   /* header 
   
   
-  
-  
   */
   
   .logo-container {
@@ -196,6 +194,7 @@ body {
   border-width:0;
   box-shadow: 8px 10px 10px rgba(0,0,0,.7);
   cursor: pointer;
+  object-fit: cover;
   }
   
   .solutions{
@@ -299,6 +298,8 @@ body {
   border-width:0;
   box-shadow: 8px 10px 10px rgba(0,0,0,.7);
   cursor: pointer;
+  object-fit: fill;
+
   }
   
         /*
@@ -1027,9 +1028,11 @@ body {
   width: 17vw;
   height: 8vw;
   padding-top: 2.5vw;
-  font-size: 2.5vw;
+  font-size: 2.25vw;
   border-radius: 2vw;
-  transform: scaleY(1.25);
+  transform: scaleY(1.45);
+  background-size: 22vw 10vw;
+
   box-shadow: 8px 10px 10px rgba(0,0,0,.7);
   }
   
@@ -1039,10 +1042,12 @@ body {
   width: 17vw;
   height: 8vw;
   padding-top: 2.5vw;
-  font-size: 2.5vw;
+  font-size: 2.25vw;
   border-radius: 2vw;
-  transform: scaleY(1.25);
+  transform: scaleY(1.45);
   box-shadow: 8px 10px 10px rgba(0,0,0,.7);
+  background-size: 42vw 30vw;
+
   
   }
   
@@ -1052,10 +1057,12 @@ body {
   width: 17vw;
   height: 8vw;
   padding-top: 2.5vw;
-  font-size: 2.5vw;
+  font-size: 2.25vw;
   border-radius: 2vw;
-  transform: scaleY(1.25);
+  transform: scaleY(1.45);
   box-shadow: 8px 10px 10px rgba(0,0,0,.7);
+  background-size: 52vw 70vw;
+
   }
   
   .what-wedo{
@@ -1064,10 +1071,11 @@ body {
   width: 17vw;
   height: 8vw;
   padding-top: 2.5vw;
-  font-size: 2.5vw;
+  font-size: 2.25vw;
   border-radius: 2vw;
-  transform: scaleY(1.25);
+  transform: scaleY(1.45);
   box-shadow: 8px 10px 10px rgba(0,0,0,.7);
+  background-size: 52vw 70vw;
   }
   
   .who-weare{
@@ -1076,10 +1084,12 @@ body {
   width: 18vw;
   height: 8vw;
   padding-top: 2.5vw;
-  font-size: 2.5vw;
+  font-size: 2.25vw;
   font-stretch: 120%;
-  transform: scaleY(1.25);
+  transform: scaleY(1.45);
   box-shadow: 8px 10px 10px rgba(0,0,0,.7);
+  background-size: 22vw 10vw;
+
   }
   
   .project-scroll {
@@ -1105,7 +1115,7 @@ body {
     left: 2vw;
     display: inline-block;
     width: 95vw;
-    height: 132vw;
+    height: 122vw;
     border: solid;
     border-color: black;
     border-width: 0.5vw;
@@ -1113,7 +1123,7 @@ body {
     overflow: visible;
     overflow-y: auto;
     scrollbar-width: 0px;
-    
+  
     }
   
   .product-scroll-header{
@@ -1156,14 +1166,13 @@ body {
       
   .product-container{
     position: relative;
-    height: 105.5vw;
+    height: 98.5vw;
     width: 70vw;
     box-shadow: 4px 5px 5px rgba(0,0,0,.7);
     border-radius: 3vw;
     padding: 3vw;
     background: white;
     margin: 3vw;
-    
     }
     
     .product-scroll-spacer {
@@ -1178,7 +1187,7 @@ body {
     padding-bottom: 1vw;
     font-size: 3vw;
     font-family: sans-serif;
-    transform: scaleY(1.25);
+    transform: scaleY(1);
     }
     
     .product-scroll-text-header{
@@ -1191,7 +1200,7 @@ body {
     
     .product-price{
     position: relative;
-    font-size: 7.5vw;
+    font-size: 8.5vw;
     font-weight: bold;
     font-style: none;
     background: none;
@@ -1216,7 +1225,7 @@ body {
     border-radius: 2vw;
     border-width: .8vw;
     border-color: rgb(53, 23, 201);
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: bold;
     font-style: italic;
     color: black;
