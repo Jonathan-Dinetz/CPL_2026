@@ -3,6 +3,8 @@ body {
   padding: 0;
   width: 100%;
   height: 3000px;
+  image: url(images/american.gif);
+
   }
   
   ::-webkit-scrollbar {
@@ -15,6 +17,7 @@ body {
 
   html {
     -webkit-text-size-adjust: none;
+    image: url(images/american.gif);
   }
   
   
