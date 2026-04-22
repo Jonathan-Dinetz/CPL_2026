@@ -353,7 +353,7 @@ body {
   
   .project-image-slider {
   position: relative;
-  height: 23vw;
+  height: 26.75vw;
   width:100%;
   box-shadow: 3px 5px 5px rgba(0,0,0,.7);
   overflow: hidden;
@@ -426,7 +426,7 @@ body {
   
   
   .product-scroll-header{
-  font-size: 2.25vw;
+  font-size: 2vw;
   font-weight: bold;
   font-style: italic;
   background: none;
@@ -509,7 +509,7 @@ body {
   .product-image-wrapper{
   display: flex;
   width: 300%; /* e.g., 3 images, each taking 100% of container width */
-  height: 17vw;
+  height: 15.5vw;
   animation: carousel-animation-product 9s infinite;
   }
   
@@ -1125,12 +1125,12 @@ body {
     scrollbar-width: 0px;
     }
   
-  .product-scroll-header{
+  .project-scroll-header {
     position: absolute;
     top: 50vw;
-    left: 5vw;
+    left: 5.5vw;
     z-index: 10;
-    font-size: 7vw;
+    font-size: 8vw;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
