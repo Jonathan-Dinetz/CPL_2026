@@ -1133,8 +1133,22 @@ body {
   
   .project-scroll-header {
     position: absolute;
+    top: 0.75vw;
+    left: 3vw;
+    z-index: 10;
+    font-size: 8vw;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    background: none;
+    height: 7vw;
+    padding-bottom: 0vw;
+  }
+
+  .project-scroll-header-solutions {
+    position: absolute;
     top: 50vw;
-    left: 5.5vw;
+    left: 5vw;
     z-index: 10;
     font-size: 8vw;
     font-weight: bold;
