@@ -7,6 +7,14 @@ body {
   overscroll-behavior: none
   }
   
+
+  .centerbabe {
+    width: 55vw;
+    height: auto;
+    font-size:2vw;
+    font-family: Sligoil-Micro;
+  }
+  
   ::-webkit-scrollbar {
   width: 0px;
   z-index:-35px;
